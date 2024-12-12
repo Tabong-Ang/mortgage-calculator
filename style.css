@@ -166,7 +166,7 @@ input[type="text"] {
 
 .input-container .symbol {
   position: absolute;
-  top: 73.4%;
+  top: 73.1%;
   transform: translateY(-50%);
   pointer-events: none;
   padding: 0.43rem 1rem;
@@ -337,6 +337,18 @@ input[type="text"]:focus + .symbol,
 
   .term-rate {
     flex-direction: column;
+  }
+
+  h1 span {
+    margin-left: 2rem;
+  }
+
+  .your-results {
+    margin-left: -1.4rem;
+  }
+
+  h3, h3 + p {
+    margin-left: .5rem;
   }
 
 }
